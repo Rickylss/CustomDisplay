@@ -1,5 +1,14 @@
 CustomDisplay is based on [nvapi](https://github.com/NVIDIA/nvapi) project. It can custom the display resolustion of the Nvidia gpu. **It only works on Nvidia gpu including vgpu types**.
 
+## Build
+
+This project is powerd by CMake. Install CMake first.
+
+```powershell
+$ .\build.bat -b
+```
+
+Change TOOLSET、VS_VER or SDK_VER as you want.
 ## Usage
 
 ```powershell
